@@ -1,0 +1,423 @@
+
+ body{
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+ }
+ .main{
+    display: flex;
+    height: 100vh;
+    
+    
+ }
+ .sidebar{
+    background-color:rgba(0,0,0,255);
+    width: 340px;
+    border-radius: 1rem;
+    overflow: hidden;
+    
+ }
+ .main-content{
+    background-color: #121212;
+    flex: 1;  /*it mean give rest of the element the size they want to take in the screen and give me rest of the complete size to me*/  
+    overflow: auto;
+    border-radius: 1rem;
+    margin: 10px 10px 10px 0px;
+    padding: 0  2rem  2rem  2rem ;
+    
+ }
+ .music-player{
+    background-color: black;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    height: 72px;
+}
+.nav{
+   background-color: #121212;
+   border-radius: 1rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin: 10px;
+  
+   
+  
+}
+.nav a{
+   text-decoration: none;
+   color: #fff;
+}
+.nav i{
+   margin: 10px 20px;
+   color: white;
+ 
+}
+.nav-option {
+  font-size: 20px;
+   margin: 15px;
+   line-height: 40px;
+   opacity: 0.5;
+   transition: all 0.3s ease-in ;
+  
+  
+   
+
+}
+.nav-option:hover{
+   opacity: 1;
+   
+}
+.library{
+   display: flex;
+   flex-direction: column;
+   background-color:rgba(17,17,17,255);
+   border-radius: 1rem;
+   height: 100%;
+   margin: 10px;
+   
+}
+.library .heading{
+   display: inline-flex;
+   justify-content: space-evenly;
+   padding-top: 15px;
+   
+}
+.heading .lib{
+   opacity: 0.5;
+   transition: all 0.3s ease-in ;
+}
+.library .heading i{
+   font-size: 20px;
+   opacity: 0.5;
+   color: white;
+   padding-top: 5px;
+  
+   transition: all 0.3s ease-in ;
+   margin-left:20px ;
+
+}
+.library .heading a{
+   text-decoration: none;
+   color: white;
+   font-size: 20px;
+   font-weight: 400;
+ 
+}
+.library .heading img{
+   height: 20px;
+   width: 20px;
+  
+   margin-right: 20px;
+}
+
+.heading .lib:hover {
+   opacity: 1;
+
+}
+.library .heading i:hover{
+  
+   opacity: 1;
+}
+.card{
+   
+   margin-left:30px ;
+   background-color: rgba(26, 26, 26,255);
+   border-radius: 1rem;
+   text-align: center;
+   
+}
+.card:hover{
+   background-color: rgba(31, 31, 31,255);
+}
+
+.card-text{
+   opacity: 0.6;
+}
+.card-body{
+   padding: 30px;
+}
+.btn-sidebar{
+   border-radius: 20px;
+   padding: 10px;
+   
+   background-color: white;
+   transition: all 0.3s ease-in ;
+  
+}
+.btn-sidebar a{
+   font-weight: 700;
+   color: black;
+   text-decoration: none;
+}
+.library .heading,.card{
+   margin: 20px;
+}
+button:hover{
+   transform: scale(1.1);
+}
+
+
+
+
+.btn-nav a{
+   text-decoration: none;
+   color:black;
+   font-size:1rem ;
+   font-weight: 700;
+}
+.account{
+   height: 3rem;
+   width: 3rem;
+   border-radius: 50%;
+   background-color: #000;
+   transition: all 0.3s ease-in ;
+   cursor: pointer;
+}
+
+.nav-main{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   position: sticky;
+   top: 0;
+   background-color: #121212;
+   margin-top: 10px;
+   height: 5rem;
+  z-index: 20;
+
+}
+#install span{
+   margin-right: 10px;
+}
+#install a{
+   display: flex;
+   justify-content:center ;
+   align-items: center;
+   color: #fff;
+}
+
+.btn-nav{
+   
+   border-radius: 1.5rem;
+   padding: 0.7rem;
+   
+   background-color: white;
+   transition: all 0.3s ease-in ;
+  
+
+}
+.forward-icon,.backward-icon{
+   background-color:rgba(19,19,19,255);
+   border-radius: 50%;
+   transition: all 0.3s ease-in ;
+}
+.nav-icon{
+   margin-top: 10px;
+
+}
+.nav-icon img {
+   padding: 10px;
+   cursor: pointer;
+}
+.nav-icon button{
+   margin-left: 20px;
+}
+.nav-grp-btn{
+   
+   margin-top:1rem;
+   width: 35%;
+   display: flex;
+   justify-content: space-around;
+   
+}
+
+@media(max-width: 1000px){
+   #hide{
+      display: none;
+   }
+   
+}
+.main-card .card-profile{
+   width: 300px;
+   margin-left:30px ;
+   margin-top: 20px;
+   background-color:rgba(26,26,26,255);
+   border-radius: 1rem;
+   padding: 20px;
+   
+}
+.main-card h1{
+   cursor: pointer;
+}
+.main-card h1:hover{
+   text-decoration: underline;
+
+
+}
+.main-card .card-profile:hover{
+   background-color:rgba(31,31,31,255);
+   cursor: pointer;
+}
+.card-profile .card-title{
+    font-weight: 600;
+    
+}
+.card-profile .card-info{
+   opacity: 0.6;
+}
+.card-profile img{
+   width: 100%;
+  
+   border-radius: 1rem;
+}
+.card-container{
+   display: flex;
+   flex-wrap: wrap;
+  
+}
+.footer{
+   margin-top: 6rem;
+   border-top: 2px solid white ;
+   height: 10rem;
+   opacity: 0.4;
+}
+.music-player{
+   display: flex;
+   
+   
+}
+#center{
+   width: 40%;
+   height: 100%;
+  
+}
+#left-right{
+   width: 30%;
+   height: 100%;
+   
+   display: flex;
+   justify-content: space-evenly;
+   
+}
+
+
+.player-card img{
+   height: 100%;
+   width: 100%;
+   border-radius: 1rem;
+   margin-left: 1rem;
+   
+}
+.player-left-icon{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.player-left-icon  button{
+   background-color: #121212;
+   color: white;
+   width: 10px;
+   height: 10px;
+   border-radius: 50%;
+   text-decoration: none;
+   cursor: pointer;
+}
+.playercard-info{
+   margin-top: 1rem;
+   height: 100%;
+   line-height: 4px;
+   
+}
+.inner-left{
+   display: flex;
+   width: 70%;
+   justify-content: space-evenly;
+}
+.inner-right{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         width: 100%;
+         height: 100%;
+         justify-content: space-evenly;
+}
+.inner-right i{
+   opacity: 0.5;
+   transition: all 0.3s ease-in-out;
+   cursor: pointer;
+}
+.inner-right i:hover{
+   opacity: 1;
+   transform: scale(1.1);
+}
+.player-center .control-panel{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 0.5rem;
+   padding-top: 0.5rem;
+   /* margin-top: 1rem; */
+  
+}
+.player-center .control-panel img{
+   height: 1rem;
+   margin-right: 1rem;
+   padding: 0 1rem 0 1rem;
+   cursor: pointer;
+   opacity: 0.6;
+}
+.player-center .control-panel img:hover{
+   opacity: 1;
+}
+.player-center .player-track{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+
+}
+.progress-bar{
+   appearance: none;
+   width: 70%;
+   height: 0.2rem;
+   background-color: transparent;
+}
+.progress-bar::-webkit-slider-runnable-track{
+   background-color: #ddd;
+   height: 0.2rem;
+   
+}
+.progress-bar::-webkit-slider-thumb{
+   appearance: none;
+   background-color:#1ce062;
+   height: 1rem;
+   width: 1rem;
+   border-radius: 50%;
+   margin-top: -6px;
+  cursor: pointer;
+
+}
+.right-progress-bar{
+   appearance: none;
+   background-color: transparent;
+}
+.right-progress-bar::-webkit-slider-runnable-track{
+   height: 0.2rem;
+   background-color: #ddd;
+   
+
+}
+
+.right-progress-bar::-webkit-slider-thumb{
+   appearance: none;
+   background-color:#1ce062;
+   height: 1rem;
+   width: 1rem;
+   border-radius: 50%;
+   margin-top:-6px;
+   cursor: pointer;
+}
