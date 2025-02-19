@@ -1,5 +1,6 @@
 # 🎵 Spotify-Replica
-A visually appealing and responsive Spotify clone built using HTML & CSS, designed to replicate the look and feel of the original Spotify web player. This project aims to provide an intuitive and immersive UI experience similar to Spotify's official web application.
+A visually appealing and responsive Spotify clone built using HTML & CSS, designed to replicate the look and feel of the original Spotify web player.<br/>
+This project aims to provide an intuitive and immersive UI experience similar to Spotify's official web application.
 
 ## ⭐ features
 
