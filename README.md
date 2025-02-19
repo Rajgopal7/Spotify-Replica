@@ -67,7 +67,8 @@ This project is open-source and available under the MIT License.
 
 ## 📸 Preview
 
-
+ ![Spotify Replica Screenshot](Assets/Preview1.png)
+ ![Spotify Replica Screenshot](Assets/Preview2.png)
 
 Made with ❤️ by Rajgopal Sinha
 
