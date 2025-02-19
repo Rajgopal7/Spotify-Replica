@@ -52,11 +52,11 @@ Follow these steps to run the project on your local system:
 
 ## 🔮 Future Enhancements
 
-🔹 JavaScript Integration – To enable actual music playback.
-🔹 API Integration – Fetch real-time song data from the Spotify API.
-🔹 Advanced Responsiveness – Further optimize UI for all devices.
-🔹 Dark & Light Modes – Allow users to switch between themes for better user experience.
-🔹 Playlist Management – Add functionality to create, edit, and manage playlists dynamically.
+🔹 JavaScript Integration – To enable actual music playback.<br/>
+🔹 API Integration – Fetch real-time song data from the Spotify API.<br/>
+🔹 Advanced Responsiveness – Further optimize UI for all devices.<br/>
+🔹 Dark & Light Modes – Allow users to switch between themes for better user experience.<br/>
+🔹 Playlist Management – Add functionality to create, edit, and manage playlists dynamically.<br/>
 
 ## 🤝 Contributing
 
