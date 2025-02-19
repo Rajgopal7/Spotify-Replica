@@ -31,9 +31,9 @@ The Spotify Replica is structured into three primary sections:
 
 ## 📂 Project Structure
 
-- 📁 **index.html** – The main structure of the web application.
-- 📁 **spotify-replica.css** – Styling for the Spotify interface.
-- 📁 **Assets Folder** – Icons, images, and other visual elements.
+ 📁 **index.html** – The main structure of the web application.
+ 📁 **spotify-replica.css** – Styling for the Spotify interface.
+ 📁 **Assets Folder** – Icons, images, and other visual elements.
 
 ## 🚀 Getting Started
 
@@ -45,7 +45,7 @@ Follow these steps to run the project on your local system:
 
 - 2️⃣ Navigate to the project directory:
 
-   cd spotify-replica
+           cd spotify-replica
 
 - 3️⃣ Open index.html in your browser, and enjoy the UI experience! 🎶
 
