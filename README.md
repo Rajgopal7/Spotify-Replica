@@ -4,21 +4,21 @@ This project aims to provide an intuitive and immersive UI experience similar to
 
 ## ⭐ features
 
-✅ _**Sidebar Navigation**_ – Home, Search, and Library options for seamless browsing.
-✅ _**Dynamic Main Content**_ – Showcases recently played songs, popular albums, and featured charts.
-✅ _**Interactive Music Player UI**_ – Positioned at the bottom, featuring playback controls (UI only).
-✅ _**Modern UI & Smooth Transitions**_ – Clean layout with hover effects and animations.
-✅ _**Fully Responsive**_ – Adapts to various screen sizes for an optimal experience.
-✅ _**Custom Card Designs**_ – Each playlist and album is represented with stylish, interactive cards.
-✅ _**Hover Effects & Animations**_ – Enhances user engagement with smooth transitions.
+✅ _**Sidebar Navigation**_ – Home, Search, and Library options for seamless browsing. <br/>
+✅ _**Dynamic Main Content**_ – Showcases recently played songs, popular albums, and featured charts.<br/>
+✅ _**Interactive Music Player UI**_ – Positioned at the bottom, featuring playback controls (UI only).<br/>
+✅ _**Modern UI & Smooth Transitions**_ – Clean layout with hover effects and animations.<br/>
+✅ _**Fully Responsive**_ – Adapts to various screen sizes for an optimal experience<br/>.
+✅ _**Custom Card Designs**_ – Each playlist and album is represented with stylish, interactive cards.<br/>
+✅ _**Hover Effects & Animations**_ – Enhances user engagement with smooth transitions.<br/>
 
 ## 🎨 Design Breakdown
 
 The Spotify Replica is structured into three primary sections:
 
-1️⃣ _**Sidebar Navigation**_ – Includes essential navigation links such as Home, Search, and Your Library. Styled with flexbox and CSS transitions to enhance user experience.
-2️⃣ _**Main Content Area**_ – Displays playlists, recently played tracks, and featured charts. Uses grid and flexbox for a structured, responsive layout.
-3️⃣ _**Music Player UI**_ – A fixed bottom panel with playback controls, volume adjustment, and progress bar styling. The layout is designed to match the original Spotify web app.
+1️⃣ _**Sidebar Navigation**_ – Includes essential navigation links such as Home, Search, and Your Library. Styled with flexbox and CSS transitions to enhance user experience.<br/>
+2️⃣ _**Main Content Area**_ – Displays playlists, recently played tracks, and featured charts. Uses grid and flexbox for a structured, responsive layout.<br/>
+3️⃣ _**Music Player UI**_ – A fixed bottom panel with playback controls, volume adjustment, and progress bar styling. The layout is designed to match the original Spotify web app.<br/>
 
 ## 🛠️ Technologies Used
 
@@ -32,9 +32,9 @@ The Spotify Replica is structured into three primary sections:
 
 ## 📂 Project Structure
 
- 📁 **index.html** – The main structure of the web application.
- 📁 **spotify-replica.css** – Styling for the Spotify interface.
- 📁 **Assets Folder** – Icons, images, and other visual elements.
+ 📁 **index.html** – The main structure of the web application.<br/>
+ 📁 **spotify-replica.css** – Styling for the Spotify interface.<br/>
+ 📁 **Assets Folder** – Icons, images, and other visual elements.<br/>
 
 ## 🚀 Getting Started
 
