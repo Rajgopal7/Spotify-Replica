@@ -16,9 +16,9 @@ This project aims to provide an intuitive and immersive UI experience similar to
 
 The Spotify Replica is structured into three primary sections:
 
-1️⃣ _**Sidebar Navigation**_ – &nbsp;Includes essential navigation links such as Home, Search, and Your Library. Styled with flexbox and CSS transitions to &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;enhance user experience.<br/>
-2️⃣ _**Main Content Area**_ – &nbsp;Displays playlists, recently played tracks, and featured charts. Uses grid and flexbox for a structured, responsive &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;layout.<br/>
-3️⃣ _**Music Player UI**_ – &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A fixed bottom panel with playback controls, volume adjustment, and progress bar styling. The layout is designed to &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;match the original Spotify web app.<br/>
+1️⃣ _**Sidebar Navigation**_ – &nbsp;Includes essential navigation links such as Home, Search, and Your Library. Styled with flexbox and CSS transitions to enhance user experience.<br/>
+2️⃣ _**Main Content Area**_ – &nbsp;Displays playlists, recently played tracks, and featured charts. Uses grid and flexbox for a structured, responsive layout.<br/>
+3️⃣ _**Music Player UI**_ – &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A fixed bottom panel with playback controls, volume adjustment, and progress bar styling. The layout is designed to match the original Spotify web app.<br/>
 
 ## 🛠️ Technologies Used
 
